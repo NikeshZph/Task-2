@@ -30,9 +30,9 @@ public class TaskTwoReadingCsvApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        String zipFilePath = "/home/zakipoint/Desktop/Task2/task-two-readingCsv/src/main/resources/static/sample-data.zip";
-        String destinationDir = "/home/zakipoint/Desktop/Task2/task-two-readingCsv/src/main/resources/static/csv";
-        String mergedCsvFilePath = "/home/zakipoint/Desktop/Task2/task-two-readingCsv/src/main/resources/static/csv/merged.csv";
+        String zipFilePath = "/home/zakipoint/Desktop/testtask2/src/main/resources/static/sample-data.zip";
+        String destinationDir = "/home/zakipoint/Desktop/testtask2/src/main/resources/static/csv";
+        String mergedCsvFilePath = "/home/zakipoint/Desktop/testtask2/src/main/resources/static/csv/merged.csv";
 
         File destination = new File(destinationDir);
         if (!destination.exists()) {

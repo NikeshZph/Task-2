@@ -13,7 +13,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Document(indexName = "tast_two_final")
+@Document(indexName = "task2two")
 @JsonIgnoreProperties(value = {"aggregations"})
 public class CSVEntity {
     @Id
